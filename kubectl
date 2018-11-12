@@ -1,3 +1,4 @@
+#https://github.com/BuoyantIO/kubectl
 FROM alpine:3.8 as builder
 ARG K8S_VERSION=v1.12.2
 RUN set -x                  && \
